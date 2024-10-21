@@ -1,8 +1,40 @@
 <template>
- <div class="section-one">
-    <AppNavbar />
-  </div>
-  <div class="section-one2">
-    <NuxtPage />
-  </div>
+  <UContainer class="flex no-padding">
+    <div class="navbar">
+      <AppNavbar />
+    </div>
+    <div class="flex-grow main-content">
+      <NuxtPage />
+    </div>
+  </UContainer>
 </template>
+
+<style scoped>
+.flex {
+  display: flex;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.navbar{
+  width: 20%;
+  height: 100vh;
+  top:0;
+  left:0;
+  position: fixed;
+
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.main-content {
+  margin-left: 20%; /* Leaves space for the navbar */
+  padding: 1rem; /* Adds some padding inside the content area */
+  width: 100%;
+}
+
+</style>
