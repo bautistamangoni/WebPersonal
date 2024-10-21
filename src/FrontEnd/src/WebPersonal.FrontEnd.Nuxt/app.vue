@@ -32,8 +32,8 @@
 }
 
 .main-content {
-  margin-left: 20%; /* Leaves space for the navbar */
-  padding: 1rem; /* Adds some padding inside the content area */
+  margin-left: 20%; 
+  padding: 1rem; 
   width: 100%;
 }
 

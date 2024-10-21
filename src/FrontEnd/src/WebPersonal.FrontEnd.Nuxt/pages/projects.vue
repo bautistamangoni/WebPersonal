@@ -1,9 +1,8 @@
 <template>
-    <main class="min-h-screen">
-      <AppHeader class="mb-12" title="Proyectos" :description="description" />
-      <h1>description</h1>
-    </main>
-  </template>
+  <main class="min-h-screen">
+    <h1>Proyectos</h1>
+  </main>
+</template>
   
   <script setup>
   const description =
