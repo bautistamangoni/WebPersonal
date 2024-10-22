@@ -16,7 +16,7 @@ To install this project, run the following commands:
 3. Run `npm install` to install the dependencies.
 4. Run `npm run dev` to start the development server on `http://localhost:3000`.
    
-## Tech Stack
+## TechStack
 1. [Nuxt JS](https://nuxt.com/)
 2. [VueJs](https://vuejs.org/)
 3. [Tailwind CSS](https://tailwindcss.com/)
