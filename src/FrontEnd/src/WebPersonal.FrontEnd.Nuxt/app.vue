@@ -7,6 +7,7 @@
       <NuxtPage />
     </div>
   </UContainer>
+  <AppFooter />
 </template>
 
 <style scoped>

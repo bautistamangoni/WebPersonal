@@ -31,15 +31,15 @@ const links = [
   //   to: ''
   // }, 
   {
-    label: 'Experiencia profesional',
+    label: 'Professional Experience',
     icon: 'i-heroicons-chart-bar',
     to: '/experience'
   }, {
-    label: 'Proyectos',
+    label: 'Projects',
     icon: 'i-heroicons-command-line',
     to: '/projects'
   }], [{
-    label: 'Contacto',
+    label: 'Contact Me',
     icon: 'i-heroicons-light-bulb',
     to: '/social'
   }
