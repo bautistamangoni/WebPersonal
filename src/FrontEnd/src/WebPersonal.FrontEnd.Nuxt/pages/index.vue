@@ -1,6 +1,11 @@
 <template>
   <main class="min-h-screen">
     <div>
+      <NuxtLink to="/curriculum/MangoniJuanBautistaCV.pdf" external target="_blank">
+        Download CV
+      </NuxtLink>
+    </div>
+    <div>
       <HomeIntro />
     </div>
   </main>

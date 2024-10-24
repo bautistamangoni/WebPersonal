@@ -1,4 +1,5 @@
 <template>
+  <NuxtLoadingIndicator />
   <UContainer class="flex no-padding">
     <div class="navbar">
       <AppNavbar />
