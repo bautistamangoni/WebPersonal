@@ -1,14 +1,16 @@
 <template>
-  <NuxtLoadingIndicator />
-  <UContainer class="flex no-padding">
-    <div class="navbar">
-      <AppNavbar />
-    </div>
-    <div class="flex-grow main-content">
-      <NuxtPage />
-    </div>
-  </UContainer>
-  <AppFooter />
+  <main class="bg-indigo-50">
+    <NuxtLoadingIndicator />
+    <UContainer class="flex no-padding ">
+      <div class="navbar">
+        <AppNavbar />
+      </div>
+      <div class="flex-grow main-content">
+        <NuxtPage />
+      </div>
+    </UContainer>
+    <AppFooter/>
+  </main>
 </template>
 
 <style scoped>
