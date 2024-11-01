@@ -5,8 +5,7 @@
       padding: 'p-10 ps-4',
       rounded: '',
       ring: '',
-      font: 'text-l',
-      display: 'flex'
+      font: 'text-l'
     }"
     >
     <template #avatar="{ link }">
