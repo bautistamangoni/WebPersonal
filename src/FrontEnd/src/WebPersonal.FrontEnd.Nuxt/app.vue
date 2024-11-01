@@ -1,6 +1,10 @@
 <template>
   <main class="bg-indigo-50">
     <NuxtLoadingIndicator />
+    <NuxtParticles  id="tsparticles"
+                    url="assets/particles/particles.json"
+                    @load="onLoad"> 
+    </NuxtParticles>
     <UContainer class="flex no-padding ">
       <div class="navbar">
         <AppNavbar />
@@ -12,6 +16,15 @@
     <AppFooter/>
   </main>
 </template>
+
+<script setup lang="ts">
+  import type { Container } from '@tsparticles/engine'
+  
+  const onLoad = (container: Container) => {
+    container.pause()
+    setTimeout(() => container.play(), 1000)
+  }
+</script>
 
 <style scoped>
 .flex {
