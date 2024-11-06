@@ -1,8 +1,7 @@
 <template>
-
-    <UHorizontalNavigation :links="links" 
+<div class="fixed top-0 w-full z-50">
+  <UHorizontalNavigation  :links="links" 
     :ui="{
-      padding: 'p-10 ps-4',
       rounded: '',
       ring: '',
       font: 'text-l'
@@ -12,6 +11,8 @@
       <UAvatar v-if="link.avatar" v-bind="link.avatar" size="xs" loading="lazy" />
     </template>
   </UHorizontalNavigation>
+</div>
+
 </template>
 
 <script setup lang="ts">

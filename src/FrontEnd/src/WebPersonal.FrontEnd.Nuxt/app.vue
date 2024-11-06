@@ -1,18 +1,16 @@
 <template>
-  <main class="bg-indigo-50">
+  <main class="bg-slate-50 font-mono">
     <!-- <NuxtLoadingIndicator />
     <NuxtParticles  id="tsparticles"
                     url="assets/particles/particles.json"
                     @load="onLoad"> 
     </NuxtParticles> -->
-    <UContainer class="no-padding ">
-      <div class="">
-        <AppNavbar />
-      </div>
-      <div class="">
+    <AppNavbar />
+    <div class="h-32"></div>
+    <UContainer class="">
         <NuxtPage />
-      </div>
     </UContainer>
+    <div class="h-32"></div>
     <AppFooter/>
   </main>
 </template>
@@ -36,7 +34,6 @@
 }
 
 .navbar{
-  width: 20%;
   height: 100vh;
   top:0;
   position: fixed;
