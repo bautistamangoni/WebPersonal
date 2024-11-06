@@ -1,12 +1,12 @@
 <template>
   <main class="min-h-screen">
     <div>
+      <HomeIntro />
+    </div>
+    <div class="space-y-6 text-center pt-10">
       <NuxtLink to="/curriculum/MangoniJuanBautistaCV.pdf" external target="_blank">
         Download CV
       </NuxtLink>
-    </div>
-    <div>
-      <HomeIntro />
     </div>
   </main>
 </template>

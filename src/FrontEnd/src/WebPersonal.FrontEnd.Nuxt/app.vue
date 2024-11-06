@@ -1,15 +1,15 @@
 <template>
   <main class="bg-indigo-50">
-    <NuxtLoadingIndicator />
+    <!-- <NuxtLoadingIndicator />
     <NuxtParticles  id="tsparticles"
                     url="assets/particles/particles.json"
                     @load="onLoad"> 
-    </NuxtParticles>
-    <UContainer class="flex no-padding ">
-      <div class="navbar">
+    </NuxtParticles> -->
+    <UContainer class="no-padding ">
+      <div class="">
         <AppNavbar />
       </div>
-      <div class="flex-grow main-content">
+      <div class="">
         <NuxtPage />
       </div>
     </UContainer>
@@ -39,7 +39,6 @@
   width: 20%;
   height: 100vh;
   top:0;
-  left:0;
   position: fixed;
 
 }
@@ -49,9 +48,8 @@
 }
 
 .main-content {
-  margin-left: 20%; 
-  padding: 1rem; 
   width: 100%;
+  top:20;
 }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
 
-    <UVerticalNavigation :links="links" 
+    <UHorizontalNavigation :links="links" 
     :ui="{
       padding: 'p-10 ps-4',
       rounded: '',
@@ -9,9 +9,9 @@
     }"
     >
     <template #avatar="{ link }">
-      <UAvatar v-if="link.avatar" v-bind="link.avatar" size="xl" loading="lazy" />
+      <UAvatar v-if="link.avatar" v-bind="link.avatar" size="xs" loading="lazy" />
     </template>
-  </UVerticalNavigation>
+  </UHorizontalNavigation>
 </template>
 
 <script setup lang="ts">
@@ -25,11 +25,6 @@ const links = [
     },
     to: '/'
   }, 
-  // {
-  //   label: 'Sobre mí',
-  //   icon: 'i-heroicons-home',
-  //   to: ''
-  // }, 
   {
     label: 'Professional Experience',
     icon: 'i-heroicons-chart-bar',
@@ -38,15 +33,12 @@ const links = [
     label: 'Projects',
     icon: 'i-heroicons-command-line',
     to: '/projects'
-  }], [{
+  },
+  {
     label: 'Contact Me',
     icon: 'i-heroicons-light-bulb',
     to: '/social'
   }
-  //, {
-  //   label: 'Help',
-  //   icon: 'i-heroicons-question-mark-circle'
-  // }
   ]
 ]
 </script>
