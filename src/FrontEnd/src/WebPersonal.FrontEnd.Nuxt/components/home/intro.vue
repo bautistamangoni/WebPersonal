@@ -1,8 +1,8 @@
 <template>
-    <div class="flex justify-center">
+    <!-- <div class="flex justify-center">
       <NuxtImg src="https://avatars.githubusercontent.com/u/183560782?v=4" alt="Juan Bautista Mangoni"    
       class="ring-2 border ring-gray-200 border-gray-300 hover:ring-4 transition-all duration-300 bg-gray-200 rounded-full h-30 w-30 sm:h-30 sm:w-30" sizes="48px sm:64px"/> 
-    </div>
+    </div> -->
     <div class="space-y-6 text-center pt-10">
       <h1 class="text-xl font-bold tracking-tight text-gray-800">
         ¡Hello World!

@@ -27,16 +27,16 @@ const links = [
     to: '/'
   }, 
   {
-    label: 'Professional Experience',
+    label: '',
     icon: 'i-heroicons-chart-bar',
     to: '/experience'
   }, {
-    label: 'Projects',
+    label: '',
     icon: 'i-heroicons-command-line',
     to: '/projects'
   },
   {
-    label: 'Contact Me',
+    label: '',
     icon: 'i-heroicons-light-bulb',
     to: '/social'
   }

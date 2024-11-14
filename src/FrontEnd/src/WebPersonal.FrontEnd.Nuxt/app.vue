@@ -5,9 +5,10 @@
                     url="assets/particles/particles.json"
                     @load="onLoad"> 
     </NuxtParticles> -->
-    <AppNavbar />
+    
     <div class="h-32"></div>
     <UContainer class="">
+      <AppNavbar />
         <NuxtPage />
     </UContainer>
     <div class="h-32"></div>
