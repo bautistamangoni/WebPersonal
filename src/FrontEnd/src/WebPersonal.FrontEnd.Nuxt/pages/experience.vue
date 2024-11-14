@@ -6,7 +6,7 @@
       </h1>
       <h2>Asince MSL Group - .NET Developer July 2024 - Present</h2>
         <ul>
-          <li>Support and problem-solving related to the use of the company’s system by the end user.</li>
+          <li>.NET, VueJs, Nuxt Developer.</li>
           <li>Execution of tests and implementation of quick fixes (hotfixes) in production environments.</li>
           <li>Investigation of system errors and documentation of potential solutions.</li>
           <li>Analysis and development of system adaptations according to user needs.</li>
