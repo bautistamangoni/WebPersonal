@@ -1,5 +1,5 @@
 <template>
-<div class="fixed top-0 w-full z-50">
+<div class="flex top-0 w-full z-50">
   <UHorizontalNavigation  :links="links" 
     :ui="{
       rounded: '',
@@ -30,16 +30,17 @@ const links = [
     label: '',
     icon: 'i-heroicons-chart-bar',
     to: '/experience'
-  }, {
-    label: '',
-    icon: 'i-heroicons-command-line',
-    to: '/projects'
-  },
-  {
-    label: '',
-    icon: 'i-heroicons-light-bulb',
-    to: '/social'
   }
+  // , {
+  //   label: '',
+  //   icon: 'i-heroicons-command-line',
+  //   to: '/projects'
+  // },
+  // {
+  //   label: '',
+  //   icon: 'i-heroicons-users',
+  //   to: '/social'
+  // }
   ]
 ]
 </script>

@@ -10,8 +10,10 @@
     <UContainer class="">
       <AppNavbar />
         <NuxtPage />
+        <AppSocials />
     </UContainer>
     <div class="h-32"></div>
+    
     <AppFooter/>
   </main>
 </template>

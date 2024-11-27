@@ -7,7 +7,7 @@
       <UButton
         icon="i-heroicons-arrow-down-circle-16-solid"
         size="sm"
-        color="primary"
+        color="gray"
         variant="solid"
         label="Download CV"
         to="/curriculum/MangoniJuanBautistaCV.pdf" 
